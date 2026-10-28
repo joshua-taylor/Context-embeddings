@@ -1,0 +1,15 @@
+  most-frequent-tag-per-word (no context)             | POS all  79.0 ambiguous  80.2 | supersense all  64.3 ambiguous  66.4   (n ambiguous: POS 33313, SS 6583)
+  E768                                           dims   768 | POS all  77.5 ambiguous  78.8 | supersense all  61.0 ambiguous  62.9
+  E768 + LIN                                     dims  1280 | POS all  79.5 ambiguous  80.2 | supersense all  62.8 ambiguous  63.8
+  E768 + SEL                                     dims  1280 | POS all  79.5 ambiguous  80.2 | supersense all  63.0 ambiguous  64.0
+  E768 + ESN                                     dims  1280 | POS all  79.5 ambiguous  80.2 | supersense all  62.7 ambiguous  63.8
+  E768 + HIP                                     dims  1280 | POS all  78.5 ambiguous  79.5 | supersense all  61.8 ambiguous  63.4
+  E768 + LIN + SEL + ESN + HIP                   dims  2816 | POS all  80.1 ambiguous  80.6 | supersense all  63.3 ambiguous  64.2
+  E768 + G                                       dims   896 | POS all  79.4 ambiguous  80.4 | supersense all  62.3 ambiguous  64.0
+  E768 + ATT                                     dims   896 | POS all  78.0 ambiguous  79.0 | supersense all  61.8 ambiguous  63.6
+  E768 + ATT2                                    dims   896 | POS all  78.2 ambiguous  79.3 | supersense all  61.5 ambiguous  63.2
+  E768 + G + ATT + ATT2                          dims  1152 | POS all  79.8 ambiguous  80.6 | supersense all  62.7 ambiguous  64.2
+  E768 + XP                                      dims  1792 | POS all  80.6 ambiguous  81.3 | supersense all  64.9 ambiguous  66.2
+  E768 + G + ATT + ATT2 + XP                     dims  2176 | POS all  81.4 ambiguous  81.9 | supersense all  65.5 ambiguous  66.8
+  E768 + LIN + SEL + ESN + HIP + G + ATT + ATT2 + XP dims  4224 | POS all  82.3 ambiguous  82.5 | supersense all  65.9 ambiguous  66.8
+  LIN + SEL + ESN + HIP + G + ATT + ATT2 + XP    dims  3456 | POS all  80.1 ambiguous  80.3 | supersense all  59.4 ambiguous  59.9

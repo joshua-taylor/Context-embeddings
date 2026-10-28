@@ -1,0 +1,5 @@
+  RoBERTa-base (last layer)          mean+raw      STS-B  22.0  SICK  40.6  ent>con  64.2  neg  3/22  wic_acc  54.1  wic_auc  55.5
+  RoBERTa-base (last layer)          mean+white    STS-B  34.7  SICK  48.6  ent>con  62.3  neg  1/22
+  RoBERTa-base (last layer)          sif+raw       STS-B  30.5  SICK  41.2  ent>con  57.6  neg  1/22
+  RoBERTa-base (last layer)          sif+white     STS-B  41.4  SICK  50.3  ent>con  56.1  neg  0/22
+  coarse WiC (test lemmas): static 53.3  RoBERTa 57.5

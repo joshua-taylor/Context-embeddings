@@ -1,0 +1,4 @@
+buckets 2,097,152 (2.53M patterns kept, 0.87 GB, built 26s) | products random    2048 | L1 0.193 L2 0.231 L3 0.245 (top1 18.2%) | fit 374s | encode 7,372 tok/s
+buckets   524,288 (1.36M patterns kept, 0.22 GB, built 21s) | products random    2048 | L1 0.180 L2 0.217 L3 0.230 (top1 16.7%) | fit 379s | encode 7,883 tok/s
+buckets   131,072 (0.39M patterns kept, 0.06 GB, built 18s) | products random    2048 | L1 0.157 L2 0.193 L3 0.205 (top1 14.4%) | fit 387s | encode 8,132 tok/s
+buckets 2,097,152 (2.53M patterns kept, 0.87 GB, built 24s) | products subspace  2048 | L1 0.193 L2 0.225 L3 0.230 (top1 16.8%) | fit 371s | encode 10,406 tok/s

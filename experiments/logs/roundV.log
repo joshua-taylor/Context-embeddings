@@ -1,0 +1,10 @@
+
+  cloze layer 1: vocab MRR 0.198 top1 14.0% | meaning-space MRR 0.311 | 1669 feats, fit 37s (features 30s)
+  cloze layer 2: vocab MRR 0.242 top1 17.7% | meaning-space MRR 0.313 | 3973 feats, fit 100s (features 80s)
+  cloze layer 3: vocab MRR 0.256 top1 19.1% | meaning-space MRR 0.311 | 6277 feats, fit 211s (features 168s)
+  fwd   layer 1: vocab MRR 0.115 top1  7.5% | meaning-space MRR 0.142 | 770 feats, fit 12s (features 9s)
+  fwd   layer 2: vocab MRR 0.140 top1  9.6% | meaning-space MRR 0.143 | 3074 feats, fit 73s (features 58s)
+  fwd   layer 3: vocab MRR 0.146 top1 10.3% | meaning-space MRR 0.143 | 5378 feats, fit 164s (features 127s)
+  bwd   layer 1: vocab MRR 0.101 top1  6.2% | meaning-space MRR 0.133 | 770 feats, fit 11s (features 8s)
+  bwd   layer 2: vocab MRR 0.126 top1  8.4% | meaning-space MRR 0.132 | 3074 feats, fit 67s (features 53s)
+  bwd   layer 3: vocab MRR 0.131 top1  8.9% | meaning-space MRR 0.131 | 5378 feats, fit 158s (features 125s)

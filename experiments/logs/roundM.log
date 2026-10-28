@@ -1,0 +1,6 @@
+  most-frequent-tag-per-word (no context)             | POS all  78.3 ambiguous  80.1 | supersense all  63.0 ambiguous  66.6   (n ambiguous: POS 33553, SS 6251)
+  E768                                           dims   768 | POS all  77.5 ambiguous  78.9 | supersense all  61.4 ambiguous  63.0
+  E768 + XP4k                                    dims  3840 | POS all  82.0 ambiguous  82.4 | supersense all  66.5 ambiguous  67.4
+  E768 + XPL                                     dims  2304 | POS all  80.0 ambiguous  80.8 | supersense all  63.8 ambiguous  65.5
+  E768 + G + ATT2 + XP4k                         dims  4096 | POS all  82.3 ambiguous  82.7 | supersense all  66.6 ambiguous  67.7
+  E768 + G + ATT2 + XP4k + XPL                   dims  5632 | POS all  83.2 ambiguous  83.5 | supersense all  67.0 ambiguous  68.0

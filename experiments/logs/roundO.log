@@ -1,0 +1,7 @@
+  most-frequent-tag-per-word (no context)             | POS all  79.0 ambiguous  80.2 | supersense all  64.3 ambiguous  66.4   (n ambiguous: POS 33313, SS 6583)
+  E768 + learned layer (256)               dims  1024 | POS all  79.7 ambiguous  80.6 | supersense all  63.0 ambiguous  64.7
+  E768 + learned layer + gap guess         dims  1152 | POS all  80.3 ambiguous  81.1 | supersense all  63.5 ambiguous  64.9
+  learned layer only (256)                 dims   256 | POS all  63.0 ambiguous  63.6 | supersense all  38.3 ambiguous  40.2
+  meaning+guess                      mean+white    STS-B  64.3  SICK  58.6  ent>con  35.5  neg  1/22
+  meaning+guess+learned layer        mean+white    STS-B  63.1  SICK  57.9  ent>con  35.2  neg  1/22
+  learned layer only                 mean+white    STS-B  47.4  SICK  52.6  ent>con  40.2  neg  4/22

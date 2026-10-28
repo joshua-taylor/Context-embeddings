@@ -1,0 +1,21 @@
+  static E (PPMI-SVD 128d)           mean+raw      STS-B  42.0  SICK  52.4  ent>con  45.1  neg  2/22  wic_acc  52.7  wic_auc  53.0
+  static E (PPMI-SVD 128d)           mean+pc1      STS-B  43.3  SICK  52.9  ent>con  45.7  neg  3/22
+  static E (PPMI-SVD 128d)           mean+white    STS-B  55.6  SICK  58.3  ent>con  41.5  neg  1/22
+  static E (PPMI-SVD 128d)           sif+raw       STS-B  53.1  SICK  56.6  ent>con  41.3  neg  1/22
+  static E (PPMI-SVD 128d)           sif+pc1       STS-B  50.3  SICK  56.8  ent>con  40.9  neg  1/22
+  static E (PPMI-SVD 128d)           sif+white     STS-B  55.1  SICK  57.5  ent>con  36.9  neg  1/22
+  static E, SIF a=0.0001             sif+pc1       STS-B  49.6  SICK  53.8  ent>con  33.1  neg  1/22  wic_acc  52.7  wic_auc  53.0
+  static E, SIF a=0.0003             sif+pc1       STS-B  50.5  SICK  55.1  ent>con  35.1  neg  1/22  wic_acc  52.7  wic_auc  53.0
+  static E, SIF a=0.003              sif+pc1       STS-B  50.6  SICK  57.7  ent>con  45.6  neg  2/22  wic_acc  52.7  wic_auc  53.0
+  word2vec (avg words)               mean+raw      STS-B  46.4  SICK  58.8  ent>con  61.8  neg  1/22
+  word2vec (avg words)               mean+pc1      STS-B  47.0  SICK  59.3  ent>con  62.3  neg  1/22
+  word2vec (avg words)               mean+white    STS-B  53.1  SICK  61.0  ent>con  62.0  neg  0/22
+  word2vec (avg words)               sif+raw       STS-B  56.4  SICK  59.5  ent>con  45.6  neg  0/22
+  word2vec (avg words)               sif+pc1       STS-B  53.2  SICK  59.2  ent>con  45.9  neg  0/22
+  word2vec (avg words)               sif+white     STS-B  56.5  SICK  60.5  ent>con  47.7  neg  0/22
+  fastText (avg words)               mean+raw      STS-B  53.2  SICK  59.8  ent>con  56.0  neg  0/22
+  fastText (avg words)               mean+pc1      STS-B  51.2  SICK  60.3  ent>con  56.5  neg  0/22
+  fastText (avg words)               mean+white    STS-B  56.5  SICK  62.1  ent>con  60.0  neg  0/22
+  fastText (avg words)               sif+raw       STS-B  60.0  SICK  59.3  ent>con  41.9  neg  0/22
+  fastText (avg words)               sif+pc1       STS-B  54.8  SICK  59.1  ent>con  42.0  neg  0/22
+  fastText (avg words)               sif+white     STS-B  58.6  SICK  60.9  ent>con  45.0  neg  0/22

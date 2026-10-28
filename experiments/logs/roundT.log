@@ -1,0 +1,13 @@
+  layer 1 (patterns + memories                           ) vocab MRR 0.197 top1 13.8% | meaning-space MRR 0.310  (layer fit 95s)
+  layer 2 (+ layer-1 guess x context products            ) vocab MRR 0.240 top1 17.4% | meaning-space MRR 0.312  (layer fit 329s)
+  layer 3 (+ layer-2 hidden state x context products     ) vocab MRR 0.223 top1 16.2% | meaning-space MRR 0.309  (layer fit 377s)
+--- rerun with residual layer 3
+  layer 1 (patterns + memories                           ) vocab MRR 0.197 top1 13.8% | meaning-space MRR 0.310  (layer fit 99s)
+  layer 2 (+ layer-1 guess x context products            ) vocab MRR 0.239 top1 17.4% | meaning-space MRR 0.312  (layer fit 343s)
+  layer 1 (patterns + memories                           ) vocab MRR 0.197 top1 13.8% | meaning-space MRR 0.310  (layer fit 73s)
+  layer 2 (+ layer-1 guess x context products            ) vocab MRR 0.239 top1 17.4% | meaning-space MRR 0.312  (layer fit 194s)
+  layer 3 (+ layer-2 hidden state x context products (residual)) vocab MRR 0.251 top1 18.7% | meaning-space MRR 0.312  (layer fit 385s)
+  encode with 1 layer(s): 22,943 tokens/s
+  encode with 1 layer(s) (unoptimised numpy path): 20,272 tokens/s
+  encode with 2 layer(s) (unoptimised numpy path): 7,113 tokens/s
+  encode with 3 layer(s) (unoptimised numpy path): 3,814 tokens/s

@@ -1,0 +1,5 @@
+  stage 1 (same-position stacking)   meaning-space MRR 0.310 top1 26.5%   [53s]
+  stage 2 (same-position stacking + guess/attention of stage 1)   meaning-space MRR 0.312 top1 26.7%   [117s]
+  stage 3 (same-position stacking + guess/attention of stage 2)   meaning-space MRR 0.312 top1 26.7%   [197s]
+  stage 1 + sequence depth (layer-2 reservoir over layer-1 directional guesses)   meaning-space MRR 0.313 top1 26.7%   [273s]
+  stage 2 + sequence depth (layer-2 reservoir over layer-1 directional guesses)   meaning-space MRR 0.313 top1 26.8%   [362s]

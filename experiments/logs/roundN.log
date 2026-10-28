@@ -1,0 +1,3 @@
+  meaning+guess                      mean+white    STS-B  64.3  SICK  58.6  ent>con  35.5  neg  1/22
+  meaning+guess+products             mean+white    STS-B  58.1  SICK  55.8  ent>con  37.1  neg  2/22
+  products only                      mean+white    STS-B  54.8  SICK  54.7  ent>con  38.4  neg  2/22

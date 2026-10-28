@@ -1,0 +1,6 @@
+  linear composer                    mean+white    STS-B  56.2  SICK  57.4  ent>con  39.9  neg  1/22  wic_acc  53.2  wic_auc  54.4
+  linear composer                    sif+white     STS-B  53.4  SICK  56.1  ent>con  36.2  neg  2/22
+  product composer                   mean+white    STS-B  54.0  SICK  58.6  ent>con  46.6  neg  1/22  wic_acc  53.2  wic_auc  54.5
+  product composer                   sif+white     STS-B  51.5  SICK  57.1  ent>con  40.8  neg  1/22
+  [x ; product composer]             mean+white    STS-B  51.3  SICK  57.6  ent>con  45.9  neg  1/22  wic_acc  53.0  wic_auc  54.4
+  [x ; product composer]             sif+white     STS-B  52.7  SICK  58.5  ent>con  42.9  neg  2/22

@@ -1,0 +1,10 @@
+  att tau=0.2 sink=0.5 lam=0 kb=0    mean+white    STS-B  35.8  SICK  46.7  ent>con  41.8  neg  1/22  wic_acc  52.5  wic_auc  54.2
+  att tau=0.2 sink=0.5 lam=0 kb=0 [x;c] mean+white    STS-B  49.4  SICK  55.7  ent>con  42.0  neg  1/22  wic_acc  53.1  wic_auc  54.8
+  att tau=0.2 sink=1.0 lam=0 kb=0    mean+white    STS-B  44.1  SICK  52.5  ent>con  39.5  neg  1/22  wic_acc  52.2  wic_auc  53.7
+  att tau=0.2 sink=1.0 lam=0 kb=0 [x;c] mean+white    STS-B  49.7  SICK  56.1  ent>con  43.5  neg  1/22  wic_acc  52.4  wic_auc  54.2
+  att tau=0.1 sink=1.0 lam=0 kb=0    mean+white    STS-B  46.4  SICK  52.9  ent>con  37.4  neg  3/22  wic_acc  52.3  wic_auc  53.2
+  att tau=0.1 sink=1.0 lam=0 kb=0 [x;c] mean+white    STS-B  47.8  SICK  55.2  ent>con  45.0  neg  1/22  wic_acc  51.9  wic_auc  53.7
+  att tau=0.4 sink=1.0 lam=0 kb=0    mean+white    STS-B  42.6  SICK  52.7  ent>con  42.3  neg  1/22  wic_acc  53.7  wic_auc  55.3
+  att tau=0.4 sink=1.0 lam=0 kb=0 [x;c] mean+white    STS-B  53.1  SICK  56.5  ent>con  42.3  neg  1/22  wic_acc  53.5  wic_auc  55.2
+  att tau=0.2 sink=1.0 lam=0 kb=0.1  mean+white    STS-B  47.3  SICK  54.5  ent>con  41.3  neg  1/22  wic_acc  52.4  wic_auc  54.1
+  att tau=0.2 sink=1.0 lam=0 kb=0.1 [x;c] mean+white    STS-B  50.3  SICK  54.7  ent>con  39.9  neg  2/22  wic_acc  52.6  wic_auc  54.3

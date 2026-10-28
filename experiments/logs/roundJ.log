@@ -1,0 +1,17 @@
+  LIN                      (  512 feats)  vocab MRR 0.071 top1   3.2% top10  14.5% | meaning-space MRR 0.048
+  SEL                      (  512 feats)  vocab MRR 0.071 top1   3.2% top10  14.4% | meaning-space MRR 0.042
+  HIP                      (  512 feats)  vocab MRR 0.041 top1   1.9% top10   8.0% | meaning-space MRR 0.009
+  ESN                      (  512 feats)  vocab MRR 0.073 top1   3.4% top10  14.8% | meaning-space MRR 0.047
+  LINX                     (  512 feats)  vocab MRR 0.063 top1   2.8% top10  13.0% | meaning-space MRR 0.035
+  LIN+SEL+HIP+ESN+LINX     ( 2560 feats)  vocab MRR 0.098 top1   5.4% top10  18.6% | meaning-space MRR 0.059
+  P                        (  903 feats)  vocab MRR 0.190 top1  13.4% top10  30.1% | meaning-space MRR 0.318
+  P+LIN                    ( 1415 feats)  vocab MRR 0.199 top1  14.0% top10  31.5% | meaning-space MRR 0.322
+  P+SEL                    ( 1415 feats)  vocab MRR 0.199 top1  14.0% top10  31.5% | meaning-space MRR 0.320
+  P+HIP                    ( 1415 feats)  vocab MRR 0.192 top1  13.6% top10  30.4% | meaning-space MRR 0.319
+  P+ESN                    ( 1415 feats)  vocab MRR 0.200 top1  14.1% top10  31.5% | meaning-space MRR 0.322
+  P+LINX                   ( 1415 feats)  vocab MRR 0.197 top1  13.9% top10  31.1% | meaning-space MRR 0.320
+  P+LIN+HIP                ( 1927 feats)  vocab MRR 0.199 top1  14.0% top10  31.5% | meaning-space MRR 0.322
+  P+LIN+ESN                ( 1927 feats)  vocab MRR 0.203 top1  14.4% top10  31.9% | meaning-space MRR 0.323
+  P+LIN+SEL                ( 1927 feats)  vocab MRR 0.204 top1  14.4% top10  32.2% | meaning-space MRR 0.322
+  P+HIP+ESN                ( 1927 feats)  vocab MRR 0.200 top1  14.2% top10  31.6% | meaning-space MRR 0.322
+  P+LIN+SEL+HIP+ESN+LINX   ( 3463 feats)  vocab MRR 0.209 top1  14.9% top10  32.9% | meaning-space MRR 0.323

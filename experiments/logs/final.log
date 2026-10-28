@@ -1,0 +1,22 @@
+  meanings 300d only                 mean+white    STS-B  60.5  SICK  59.1  ent>con  39.1  neg  0/22  wic_acc  52.7  wic_auc  53.0  coarse_auc  53.6
+  meanings 300d only                 ctx-sif+white STS-B  61.0  SICK  56.8  ent>con  30.0  neg  0/22
+  SPARC: [meanings 300d ; gap guess] mean+white    STS-B  60.8  SICK  58.6  ent>con  42.1  neg  1/22  wic_acc  53.9  wic_auc  55.3  coarse_auc  55.6
+  SPARC: [meanings 300d ; gap guess] ctx-sif+white STS-B  61.9  SICK  57.8  ent>con  37.5  neg  1/22
+  meanings 500d only                 mean+white    STS-B  63.3  SICK  59.1  ent>con  36.0  neg  0/22  wic_acc  52.7  wic_auc  52.9  coarse_auc  53.0
+  meanings 500d only                 ctx-sif+white STS-B  63.4  SICK  57.3  ent>con  29.3  neg  0/22
+  SPARC: [meanings 500d ; gap guess] mean+white    STS-B  63.2  SICK  58.9  ent>con  38.7  neg  1/22  wic_acc  54.0  wic_auc  55.2  coarse_auc  55.6
+  SPARC: [meanings 500d ; gap guess] ctx-sif+white STS-B  64.0  SICK  58.2  ent>con  34.3  neg  1/22
+  meanings 768d only                 mean+white    STS-B  65.0  SICK  58.8  ent>con  33.5  neg  1/22  wic_acc  52.7  wic_auc  52.8  coarse_auc  53.4
+  meanings 768d only                 ctx-sif+white STS-B  64.9  SICK  57.5  ent>con  29.0  neg  0/22
+  SPARC: [meanings 768d ; gap guess] mean+white    STS-B  65.0  SICK  58.9  ent>con  35.8  neg  1/22  wic_acc  54.1  wic_auc  55.2  coarse_auc  55.6
+  SPARC: [meanings 768d ; gap guess] ctx-sif+white STS-B  65.4  SICK  58.1  ent>con  32.3  neg  0/22
+  meanings 1024d only                mean+white    STS-B  65.3  SICK  58.7  ent>con  32.5  neg  1/22  wic_acc  52.7  wic_auc  53.1  coarse_auc  53.2
+  meanings 1024d only                ctx-sif+white STS-B  65.0  SICK  57.5  ent>con  28.9  neg  0/22
+  SPARC: [meanings 1024d ; gap guess] mean+white    STS-B  65.4  SICK  58.9  ent>con  34.2  neg  1/22  wic_acc  54.0  wic_auc  55.2  coarse_auc  55.6
+  SPARC: [meanings 1024d ; gap guess] ctx-sif+white STS-B  65.4  SICK  58.1  ent>con  31.5  neg  0/22
+  meanings 1536d only                mean+white    STS-B  65.9  SICK  58.4  ent>con  31.5  neg  0/22  wic_acc  52.7  wic_auc  53.3  coarse_auc  53.5
+  meanings 1536d only                ctx-sif+white STS-B  65.4  SICK  57.3  ent>con  28.9  neg  0/22
+  SPARC: [meanings 1536d ; gap guess] mean+white    STS-B  65.9  SICK  58.6  ent>con  32.5  neg  0/22  wic_acc  53.9  wic_auc  55.2  coarse_auc  55.6
+  SPARC: [meanings 1536d ; gap guess] ctx-sif+white STS-B  65.7  SICK  57.8  ent>con  30.7  neg  0/22
+  SPARC final (768-d meanings)       ctx-sif+white STS-B  65.4  SICK  58.1  ent>con  32.3  neg  0/22  wic_acc  54.1  wic_auc  55.2  coarse_auc  55.6
+  SPARC final                              fine WiC AUC  55.2 (per-lemma  56.4)   coarse WiC AUC  55.6 (per-lemma  57.1)

@@ -1,0 +1,16 @@
+  static E NCCA p=0.0 k=None  mean  STS-B  55.3  SICK  58.3  ent>con  41.6  neg  1/22
+  static E NCCA p=0.0 k=64  mean  STS-B  54.7  SICK  58.0  ent>con  39.8  neg  1/22
+  static E NCCA p=0.5 k=None  mean  STS-B  56.5  SICK  58.2  ent>con  39.6  neg  1/22
+  static E NCCA p=0.5 k=64  mean  STS-B  55.1  SICK  57.3  ent>con  38.2  neg  1/22
+  static E NCCA p=1.0 k=None  mean  STS-B  55.9  SICK  57.0  ent>con  37.6  neg  1/22
+  static E NCCA p=1.0 k=64  mean  STS-B  55.1  SICK  56.4  ent>con  36.6  neg  1/22
+  static E NCCA p=2.0 k=None  mean  STS-B  53.3  SICK  54.2  ent>con  34.3  neg  1/22
+  static E NCCA p=2.0 k=64  mean  STS-B  53.1  SICK  54.0  ent>con  34.0  neg  1/22
+  static E NCCA p=0.0 k=None  sif   STS-B  54.8  SICK  57.5  ent>con  37.0  neg  1/22
+  static E NCCA p=0.0 k=64  sif   STS-B  53.0  SICK  56.2  ent>con  35.0  neg  1/22
+  static E NCCA p=0.5 k=None  sif   STS-B  54.5  SICK  56.9  ent>con  35.5  neg  1/22
+  static E NCCA p=0.5 k=64  sif   STS-B  53.2  SICK  55.8  ent>con  34.2  neg  1/22
+  static E NCCA p=1.0 k=None  sif   STS-B  53.8  SICK  55.8  ent>con  34.3  neg  1/22
+  static E NCCA p=1.0 k=64  sif   STS-B  53.2  SICK  55.1  ent>con  33.4  neg  1/22
+  static E NCCA p=2.0 k=None  sif   STS-B  52.0  SICK  53.2  ent>con  32.5  neg  1/22
+  static E NCCA p=2.0 k=64  sif   STS-B  51.9  SICK  53.0  ent>con  32.2  neg  1/22

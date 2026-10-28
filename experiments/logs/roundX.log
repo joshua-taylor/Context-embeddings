@@ -1,0 +1,25 @@
+  [products  512] cloze layer 1: vocab MRR 0.198 top1 13.9% | 1669 feats, fit 32s (features 6s)
+  [products  512] cloze layer 2: vocab MRR 0.221 top1 15.8% | 2437 feats, fit 56s (features 12s)
+  [products  512] cloze layer 3: vocab MRR 0.232 top1 16.9% | 3205 feats, fit 82s (features 15s)
+  [products  512] cloze total training time for 3 layers: 296s
+  [products  512] cloze inference: plain 7,786 tok/s -> fused 8,843 tok/s (1.1x), outputs agree (min cos) 1.00000
+  [products 2048] cloze layer 1: vocab MRR 0.198 top1 13.9% | 1669 feats, fit 31s (features 7s, stats 19s)
+  [products 2048] cloze layer 2: vocab MRR 0.242 top1 17.8% | 3973 feats, fit 88s (features 20s, stats 47s)
+  [products 2048] cloze layer 3: vocab MRR 0.257 top1 19.2% | 6277 feats, fit 148s (features 29s, stats 77s)
+  [products 2048] cloze total training time for 3 layers: 457s
+  [products 2048] cloze inference: plain 5,281 tok/s -> fused 5,641 tok/s (1.1x), outputs agree (min cos) 1.00000
+  [products 1024] cloze layer 1: vocab MRR 0.198 top1 13.9% | 1669 feats, fit 32s (features 6s, stats 19s)
+  [products 1024] cloze layer 2: vocab MRR 0.230 top1 16.6% | 2949 feats, fit 51s (features 13s, stats 24s)
+  [products 1024] cloze layer 3: vocab MRR 0.243 top1 17.9% | 4229 feats, fit 85s (features 21s, stats 39s)
+  [products 1024] cloze total training time for 3 layers: 322s
+  [products 1024] cloze inference: plain 6,569 tok/s -> fused 6,005 tok/s (0.9x), outputs agree (min cos) 1.00000
+  [products 2048] fwd   layer 1: vocab MRR 0.115 top1  7.5% | 770 feats, fit 13s (features 3s, stats 7s)
+  [products 2048] fwd   layer 2: vocab MRR 0.140 top1  9.6% | 3074 feats, fit 67s (features 16s, stats 38s)
+  [products 2048] fwd   layer 3: vocab MRR 0.146 top1 10.3% | 5378 feats, fit 119s (features 25s, stats 63s)
+  [products 2048] fwd   total training time for 3 layers: 346s
+  [products 2048] fwd   inference: plain 6,502 tok/s -> fused 7,107 tok/s (1.1x), outputs agree (min cos) 1.00000
+  [products 2048] bwd   layer 1: vocab MRR 0.101 top1  6.2% | 770 feats, fit 13s (features 3s, stats 7s)
+  [products 2048] bwd   layer 2: vocab MRR 0.126 top1  8.4% | 3074 feats, fit 67s (features 14s, stats 39s)
+  [products 2048] bwd   layer 3: vocab MRR 0.131 top1  8.9% | 5378 feats, fit 126s (features 24s, stats 69s)
+  [products 2048] bwd   total training time for 3 layers: 359s
+  [products 2048] bwd   inference: plain 5,655 tok/s -> fused 7,219 tok/s (1.3x), outputs agree (min cos) 1.00000

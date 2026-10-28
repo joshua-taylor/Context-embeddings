@@ -1,0 +1,6 @@
+  patterns L+R+LR+LL+RR+LLR+LRR     + LIN+SEL (5.99M values) meaning-MRR 0.322  vocab-MRR 0.204 top1 14.4%
+  patterns L+R+LR+LL+RR             + LIN+SEL (3.28M values) meaning-MRR 0.311  vocab-MRR 0.199 top1 13.9%
+  patterns L+R+LR                   + LIN+SEL (1.33M values) meaning-MRR 0.219  vocab-MRR 0.163 top1 10.8%
+  patterns L+R+LR+LLR+LRR           + LIN+SEL (4.04M values) meaning-MRR 0.262
+  patterns LR+LL+RR+LLR+LRR         + LIN+SEL (5.97M values) meaning-MRR 0.321
+  patterns L+R                      + LIN+SEL (0.02M values) meaning-MRR 0.121

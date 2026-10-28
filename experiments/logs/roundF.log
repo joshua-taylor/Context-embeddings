@@ -1,0 +1,7 @@
+MLM2 res            vocab readout, held-out masked-token: MRR 0.076  top1 0.035  top10 0.149 (lam 0.001)
+  substitutes [res]                  mean+white    STS-B  43.4  SICK  52.4  ent>con  44.9  neg  2/22  wic_acc  53.0  wic_auc  54.3
+  substitutes [res]                  sif+white     STS-B  37.0  SICK  48.3  ent>con  45.6  neg  1/22
+  [x ; substitutes] [res]            mean+white    STS-B  54.1  SICK  55.4  ent>con  38.9  neg  2/22  wic_acc  53.8  wic_auc  55.2
+  [x ; substitutes] [res]            sif+white     STS-B  52.6  SICK  56.4  ent>con  38.0  neg  1/22
+MLM2 win+res        vocab readout (500,000 slots), held-out masked-token: MRR 0.085  top1 0.042  top10 0.167 (lam 0.001)
+MLM2 win+res+prod   vocab readout (500,000 slots), held-out masked-token: MRR 0.115  top1 0.064  top10 0.216 (lam 0.001)

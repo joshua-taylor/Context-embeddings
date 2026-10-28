@@ -1,0 +1,15 @@
+cloze + topic (600,000 slots): meaning cos 0.600 MRR 0.334 | vocab MRR 0.214 top1 0.151 top10 0.342
+  [x ; guess]                        mean+white    STS-B  57.2  SICK  56.5  ent>con  43.0  neg  2/22  wic_acc  54.0  wic_auc  55.4  coarse_auc  55.8
+  [x ; guess]                        ctx-sif .01+white STS-B  58.8  SICK  56.5  ent>con  41.9  neg  1/22
+  [x ; guess]                        ctx-sif .03+white STS-B  58.2  SICK  57.1  ent>con  43.3  neg  1/22
+  [x ; guess]                        ctx-sif .1+white STS-B  57.3  SICK  56.9  ent>con  43.9  neg  1/22
+  [x ; guess ; attention]            mean+white    STS-B  55.5  SICK  56.2  ent>con  43.5  neg  2/22  wic_acc  53.8  wic_auc  55.9  coarse_auc  56.8
+  [x ; guess ; attention]            ctx-sif .01+white STS-B  56.8  SICK  56.1  ent>con  43.2  neg  2/22
+  [x ; guess ; attention]            ctx-sif .03+white STS-B  56.2  SICK  56.4  ent>con  44.5  neg  1/22
+  [x ; guess ; attention]            ctx-sif .1+white STS-B  55.6  SICK  56.1  ent>con  44.5  neg  2/22
+  x only                             mean+white    STS-B  55.6  SICK  58.3  ent>con  41.5  neg  1/22  wic_acc  52.7  wic_auc  53.0  coarse_auc  53.3
+  x only                             ctx-sif .01+white STS-B  56.6  SICK  55.8  ent>con  30.0  neg  0/22
+  x only                             ctx-sif .03+white STS-B  55.9  SICK  56.4  ent>con  31.1  neg  0/22
+  x only                             ctx-sif .1+white STS-B  55.6  SICK  57.0  ent>con  34.5  neg  0/22
+  [x ; guess ; attention]                  fine WiC AUC  55.9 (per-lemma  56.8)   coarse WiC AUC  56.8 (per-lemma  58.8)
+  guess only (with topic)                  fine WiC AUC  55.0 (per-lemma  56.3)   coarse WiC AUC  55.2 (per-lemma  56.8)

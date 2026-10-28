@@ -1,0 +1,8 @@
+sparse-product cloze (600,000 slots, 1415 features): meaning readout cos 0.598 MRR 0.331 | vocab readout MRR 0.212 top1 0.150 top10 0.341  (fit 420s)
+  sparse guess                       mean+white    STS-B  46.9  SICK  55.4  ent>con  52.6  neg  1/22  wic_acc  53.6  wic_auc  54.6
+  sparse guess                       sif+white     STS-B  40.3  SICK  46.4  ent>con  48.3  neg  6/22
+  sparse guess                       ctx-sif+white STS-B  44.1  SICK  46.8  ent>con  46.1  neg  6/22
+  [x ; sparse guess]                 mean+white    STS-B  57.1  SICK  56.3  ent>con  44.5  neg  2/22  wic_acc  54.0  wic_auc  55.2
+  [x ; sparse guess]                 sif+white     STS-B  55.0  SICK  57.2  ent>con  39.8  neg  2/22
+  [x ; sparse guess]                 ctx-sif+white STS-B  57.5  SICK  56.0  ent>con  42.6  neg  1/22
+  static x, ctx-sif (sparse model)   ctx-sif+white STS-B  56.4  SICK  55.8  ent>con  30.4  neg  0/22  wic_acc  52.7  wic_auc  53.0

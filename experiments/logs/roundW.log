@@ -1,0 +1,17 @@
+  most-frequent-tag-per-word (no context)             | POS all  78.3 ambiguous  80.1 | supersense all  63.0 ambiguous  66.6   (n ambiguous: POS 33553, SS 6251)
+  speed: cloze stream, 3 layers: 5,235 tokens/s
+  speed: fwd stream, 3 layers: 5,976 tokens/s
+  speed: bwd stream, 3 layers: 6,232 tokens/s
+  meaning (768)                                    dims   768 | POS all  77.5 ambiguous  78.9 | supersense all  61.4 ambiguous  63.0
+  + cloze layer 3                                  dims  1024 | POS all  79.4 ambiguous  80.4 | supersense all  62.8 ambiguous  64.5
+  + fwd/bwd layer 1                                dims  1280 | POS all  80.5 ambiguous  80.7 | supersense all  64.9 ambiguous  65.4
+  + fwd/bwd layer 3                                dims  1280 | POS all  80.2 ambiguous  80.4 | supersense all  64.1 ambiguous  64.9
+  + fwd/bwd all layers                             dims  2304 | POS all  81.3 ambiguous  81.2 | supersense all  66.2 ambiguous  66.2
+  + word x (fwd,bwd) products                      dims  2816 | POS all  81.5 ambiguous  81.5 | supersense all  67.4 ambiguous  67.8
+  + everything (3 streams, all layers, products)   dims  5120 | POS all  83.5 ambiguous  83.2 | supersense all  68.9 ambiguous  68.6
+  fwd/bwd all layers WITHOUT the meaning           dims  1536 | POS all  79.8 ambiguous  79.9 | supersense all  59.5 ambiguous  59.5
+  fwd/bwd layer 3 (no meaning)             fine WiC AUC  55.1 (per-lemma  55.8)   coarse WiC AUC  55.7 (per-lemma  57.6)
+  meaning + fwd/bwd all layers             fine WiC AUC  55.1 (per-lemma  55.5)   coarse WiC AUC  55.9 (per-lemma  57.8)
+  meaning + cloze guess (SPARC)            mean+white STS-B  64.6  SICK  59.0  ent>con  36.5  neg  0/22
+  + fwd/bwd layer-3 hidden                 mean+white STS-B  64.1  SICK  58.5  ent>con  36.7  neg  0/22
+  + fwd/bwd layer-3 hidden & guess         mean+white STS-B  63.6  SICK  57.3  ent>con  36.2  neg  0/22

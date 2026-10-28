@@ -1,0 +1,10 @@
+MLM res            held-out masked-token: cos 0.432  MRR 0.048  top1 0.020  top10 0.100
+  guess [res]                        mean+white    STS-B  56.2  SICK  57.1  ent>con  39.9  neg  2/22  wic_acc  54.3  wic_auc  55.4
+  guess [res]                        sif+white     STS-B  51.1  SICK  54.7  ent>con  41.8  neg  1/22
+  [x ; guess] [res]                  mean+white    STS-B  53.6  SICK  50.2  ent>con  36.7  neg  1/22  wic_acc  54.9  wic_auc  55.7
+  [x ; guess] [res]                  sif+white     STS-B  53.8  SICK  57.3  ent>con  40.4  neg  2/22
+MLM win+res        held-out masked-token: cos 0.439  MRR 0.053  top1 0.022  top10 0.109
+  guess [win+res]                    mean+white    STS-B  56.4  SICK  57.2  ent>con  39.7  neg  2/22  wic_acc  53.8  wic_auc  55.2
+  guess [win+res]                    sif+white     STS-B  50.6  SICK  54.5  ent>con  42.3  neg  1/22
+  [x ; guess] [win+res]              mean+white    STS-B  52.6  SICK  50.5  ent>con  36.9  neg  0/22  wic_acc  54.5  wic_auc  55.6
+  [x ; guess] [win+res]              sif+white     STS-B  52.8  SICK  57.7  ent>con  41.8  neg  1/22

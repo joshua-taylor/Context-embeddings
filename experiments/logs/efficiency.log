@@ -1,0 +1,9 @@
+reference path 16,540 tok/s | fused kernel 48,276 tok/s (2.9x) | guess agreement cos 1.0000, score max diff 0.0029
+model size 0.95 GB (tables 0.81 GB)
+  SPARC (fused, int8 tables)         ctx-sif .01+white STS-B  57.6  SICK  56.0  ent>con  42.6  neg  1/22  wic_acc  54.0  wic_auc  55.2  coarse_auc  55.5
+v1 fused 37,095 tok/s | v2 103,711 tok/s (2.8x) on 249,997 test tokens | guess cos 1.0000, score 99.9% diff 0.0000
+v2 breakdown: reservoirs 0.33s, memory readout matmul 0.62s, pattern lookups + scores 1.29s
+v2 memscore=True: 86,950 tok/s
+v2 memscore=False: 83,937 tok/s
+  SPARC v2 memscore=True             ctx-sif+white STS-B  57.5  SICK  56.0  ent>con  42.4  neg  1/22  wic_acc  53.9  wic_auc  55.2  coarse_auc  55.5
+  SPARC v2 memscore=False            ctx-sif+white STS-B  56.0  SICK  56.9  ent>con  48.3  neg  2/22  wic_acc  53.9  wic_auc  55.2  coarse_auc  55.5

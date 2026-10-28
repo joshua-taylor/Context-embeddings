@@ -1,0 +1,9 @@
+MLM2 win+res+prod (1,000,000 slots) held-out masked-token: MRR 0.116 top1 0.062 top10 0.224 lam 0.0003  fit 461s
+  hidden z (r=256)                   mean+white    STS-B  49.2  SICK  51.3  ent>con  43.8  neg  1/22  wic_acc  52.2  wic_auc  53.3
+  hidden z (r=256)                   sif+white     STS-B  46.1  SICK  49.8  ent>con  44.2  neg  2/22
+  hidden z (r=256)                   ctx-sif+white STS-B  49.1  SICK  50.9  ent>con  42.7  neg  1/22
+  [x ; hidden z]                     mean+white    STS-B  51.1  SICK  52.1  ent>con  41.7  neg  1/22  wic_acc  53.6  wic_auc  54.4
+  [x ; hidden z]                     sif+white     STS-B  50.5  SICK  53.9  ent>con  42.0  neg  1/22
+  [x ; hidden z]                     ctx-sif+white STS-B  53.4  SICK  53.8  ent>con  41.2  neg  1/22
+  static x, ctx-sif pooling          ctx-sif+white STS-B  59.3  SICK  57.3  ent>con  32.7  neg  0/22  wic_acc  52.7  wic_auc  53.0
+  static x, ctx-sif pooling          ctx-sif .1+white STS-B  56.5  SICK  57.9  ent>con  37.9  neg  1/22

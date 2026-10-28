@@ -1,0 +1,17 @@
+  most-frequent-tag-per-word (no context)             | POS all  79.0 ambiguous  80.2 | supersense all  64.3 ambiguous  66.4   (n ambiguous: POS 33313, SS 6583)
+  E                                        dims   128 | POS all  72.1 ambiguous  73.6 | supersense all  49.1 ambiguous  49.8
+  E                                        fine WiC AUC  53.0 (per-lemma  28.9)   coarse WiC AUC  53.3 (per-lemma  50.3)
+  E768                                     dims   768 | POS all  77.5 ambiguous  78.8 | supersense all  61.0 ambiguous  62.9
+  E768                                     fine WiC AUC  52.8 (per-lemma  28.8)   coarse WiC AUC  53.4 (per-lemma  50.5)
+  E + LIN                                  dims   640 | POS all  75.0 ambiguous  75.8 | supersense all  51.7 ambiguous  50.7
+  E + LIN                                  fine WiC AUC  56.4 (per-lemma  57.0)   coarse WiC AUC  57.2 (per-lemma  58.6)
+  E + HIP                                  dims   640 | POS all  73.5 ambiguous  74.6 | supersense all  49.9 ambiguous  49.8
+  E + HIP                                  fine WiC AUC  55.6 (per-lemma  56.0)   coarse WiC AUC  56.4 (per-lemma  57.9)
+  E + ESN                                  dims   640 | POS all  75.1 ambiguous  76.0 | supersense all  52.4 ambiguous  51.5
+  E + ESN                                  fine WiC AUC  55.7 (per-lemma  55.9)   coarse WiC AUC  56.7 (per-lemma  57.7)
+  E + SEL                                  dims   640 | POS all  75.2 ambiguous  75.9 | supersense all  52.3 ambiguous  51.4
+  E + SEL                                  fine WiC AUC  56.5 (per-lemma  56.9)   coarse WiC AUC  57.4 (per-lemma  58.7)
+  E + ATT                                  dims   256 | POS all  72.9 ambiguous  74.2 | supersense all  50.6 ambiguous  50.8
+  E + ATT                                  fine WiC AUC  55.2 (per-lemma  55.8)   coarse WiC AUC  56.3 (per-lemma  57.9)
+  E + G:P+LIN                              dims   256 | POS all  74.7 ambiguous  76.0 | supersense all  51.1 ambiguous  51.1
+  E + G:P+LIN                              fine WiC AUC  55.2 (per-lemma  56.3)   coarse WiC AUC  55.4 (per-lemma  56.6)
